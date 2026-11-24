@@ -41,18 +41,23 @@ Descarga `https://github.com/joaquinrog/skills/archive/refs/heads/main.zip`, y c
 `~/.gemini/skills/`, `~/.claude/skills/`). Si tampoco puedes escribir archivos, explica a la persona
 estos mismos pasos en lenguaje simple.
 
-## 5. Ofrece las compañeras (pregunta antes)
+## 5. Instala también las compañeras
 
-Pregúntale a la persona si también quiere estas, que el kit recomienda pero no copia:
+El kit recomienda dos skills de otros autores, que sirven para problemas muy específicos. Instálalas
+junto con el kit, con el mismo alcance (global o de proyecto) y el mismo agente, sin preguntar:
 
 | Skill | Para qué | Comando |
 |---|---|---|
-| `find-skills` (Vercel) | Buscar e instalar skills nuevas | `npx -y skills@latest add vercel-labs/skills --skill find-skills -a <tu-agente> -g -y` |
+| `find-skills` (Vercel) | Buscar e instalar la skill indicada para un problema concreto | `npx -y skills@latest add vercel-labs/skills --skill find-skills -a <tu-agente> -g -y` |
 | `skill-creator` (Anthropic) | Crear y mejorar tus propias skills | `npx -y skills@latest add anthropics/skills --skill skill-creator -a <tu-agente> -g -y` |
+
+En Claude Code usa los mismos comandos `npx` con `-a claude-code`. Solo sáltalas si la persona dijo
+que no las quiere.
 
 ## 6. Comprueba y cuéntale
 
-1. Lista tus skills y confirma que aparecen `usando-el-kit`, `ask`, `progress` y `cierre-de-sesion`.
+1. Lista tus skills y confirma que aparecen `usando-el-kit`, `ask`, `progress`, `cierre-de-sesion`,
+   `find-skills` y `skill-creator`.
 2. Dile a la persona, en una o dos líneas, qué quedó instalado y dónde.
 3. Si hace falta reiniciar la sesión para que las vea, díselo.
 4. Sugiere el primer paso: *"Pídeme que planee algo y te entrevisto con `ask`"*.

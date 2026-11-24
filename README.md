@@ -22,7 +22,7 @@ Pégale esto a tu agente (Claude Code, Codex, Gemini CLI, OpenCode, Cursor, Copi
 Instala las skills de github.com/joaquinrog/skills siguiendo su INSTALL.md
 ```
 
-Él corre los comandos, te ofrece compañeras como `find-skills` y te dice qué quedó. Nada de clonar.
+Él corre los comandos, instala también `find-skills` y `skill-creator` (buscar y crear skills para problemas específicos) y te dice qué quedó. Nada de clonar.
 
 <details>
 <summary><strong>Prefiero el comando</strong></summary>
