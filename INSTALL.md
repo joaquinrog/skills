@@ -29,10 +29,24 @@ Cambia `<tu-agente>` por tu nombre en el instalador (`codex`, `gemini-cli`, `ope
 
 ## 3. Los dos agentes revisores (fuera de Claude Code)
 
-`agents/revisor-de-plan.md` y `agents/verificador-de-cierre.md` son subagentes. Si tu herramienta
-tiene subagentes o agentes con nombre, créalos con ese texto. Si no, dile a la persona que existen y
-que puede usarlos como prompt de una sesión aparte. Recomienda correrlos en el modelo más fuerte
-que tenga.
+`agents/revisor-de-plan.md` y `agents/verificador-de-cierre.md` son subagentes. Regístralos con el
+formato de tu herramienta, sin investigarlo: aquí está. El cuerpo de cada archivo (sin el
+encabezado `---`) son las instrucciones. Usa el mismo alcance que en el paso 2.
+
+- **Codex:** un archivo por agente en `.codex/agents/<nombre>.toml` (global: `~/.codex/agents/`):
+  ```toml
+  name = "revisor-de-plan"
+  description = "<la description del encabezado>"
+  developer_instructions = '''
+  <cuerpo del archivo>
+  '''
+  ```
+- **OpenCode:** `.opencode/agents/<nombre>.md` (global: `~/.config/opencode/agents/`), con
+  encabezado `description: …` y `mode: subagent`, y el cuerpo igual.
+- **Gemini CLI, Cursor y otros sin subagentes:** no los registres; dile a la persona que existen y
+  que puede usarlos como prompt de una sesión aparte.
+
+Recomienda correrlos en el modelo más fuerte que tenga.
 
 ## 4. Si no puedes correr comandos
 
