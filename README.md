@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://skills.sh/joaquinrog/skills"><img src="https://skills.sh/b/joaquinrog/skills" alt="skills.sh"></a>
   <img src="https://img.shields.io/badge/license-MIT-ece9e2?style=flat-square&labelColor=101113" alt="MIT">
   <img src="https://img.shields.io/badge/agentes-Claude%20·%20Codex%20·%20Gemini%20·%20OpenCode%20·%20Cursor-ff6a4d?style=flat-square&labelColor=101113" alt="Agentes">
 </p>
@@ -20,7 +19,7 @@ tuyos, no en una app.
 Pégale esto a tu agente (Claude Code, Codex, Gemini CLI, OpenCode, Cursor, Copilot…):
 
 ```text
-Instala las skills de https://github.com/joaquinrog/skills siguiendo https://raw.githubusercontent.com/joaquinrog/skills/main/INSTALL.md
+Instala las skills de github.com/joaquinrog/skills siguiendo su INSTALL.md
 ```
 
 Él corre los comandos, te ofrece compañeras como `find-skills` y te dice qué quedó. Nada de clonar.
@@ -107,7 +106,7 @@ skills are written in Spanish; their descriptions are bilingual.
 Cursor, Copilot…):
 
 ```text
-Install the skills from https://github.com/joaquinrog/skills following https://raw.githubusercontent.com/joaquinrog/skills/main/INSTALL.md
+Install the skills from github.com/joaquinrog/skills following its INSTALL.md
 ```
 
 Or: `/plugin marketplace add joaquinrog/skills` + `/plugin install skills@joaquinrog` in Claude
