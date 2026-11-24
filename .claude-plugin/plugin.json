@@ -1,0 +1,10 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "Kit de trabajo con IA de Joaquín Rosales: entrevistar antes de planear, revisar el plan, probar lo que funciona y cerrar cada sesión con un handoff. / Joaquín's AI work kit.",
+  "author": { "name": "Joaquín Rosales", "url": "https://github.com/joaquinrog" },
+  "homepage": "https://github.com/joaquinrog/skills",
+  "repository": "https://github.com/joaquinrog/skills",
+  "license": "MIT",
+  "keywords": ["skills", "planning", "spec-driven", "handoff", "agents", "español"]
+}

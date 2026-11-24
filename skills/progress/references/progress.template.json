@@ -1,0 +1,12 @@
+{
+  "name": "mi-proyecto",
+  "stories": [
+    {
+      "key": "EJEMPLO-1",
+      "title": "Qué puede hacer el usuario cuando esto funcione",
+      "state": "not_started",
+      "verify": ["python3 -m pytest tests/test_ejemplo.py -q"],
+      "note": ""
+    }
+  ]
+}

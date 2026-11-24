@@ -1,0 +1,15 @@
+{
+  "name": "joaquinrog",
+  "owner": {
+    "name": "Joaquín Rosales",
+    "url": "https://github.com/joaquinrog"
+  },
+  "description": "Kit de trabajo con IA de Joaquín Rosales: entrevistar, planear, probar y cerrar. Funciona con cualquier modelo.",
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "Entrevistar antes de planear, revisar el plan, probar lo que funciona y cerrar cada sesión con un handoff."
+    }
+  ]
+}
