@@ -24,6 +24,11 @@ Instala las skills de github.com/joaquinrog/skills siguiendo su INSTALL.md
 
 Él corre los comandos, instala también `find-skills` y `skill-creator` (buscar y crear skills para problemas específicos) y te dice qué quedó. Nada de clonar.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/install-dark.gif">
+  <img src="assets/install-light.gif" width="100%" alt="Codex en T3 Code instala el kit con un solo prompt: 6 skills y 2 revisores en 33 segundos">
+</picture>
+
 <details>
 <summary><strong>Prefiero el comando</strong></summary>
 
